@@ -23,17 +23,17 @@ const InternshipCard = () => {
           {/* Avatar placeholder */}
           <div className="bg-muted h-16 w-16 overflow-hidden rounded-full shadow-md">
             <img
-              src="/profile-yuvi.jpg"
-              alt="Yuvraj's avatar"
+              src="/profile-aryan.jpeg"
+              alt="Aryan's avatar"
               className="h-full w-full object-cover"
             />
           </div>
           <div>
             <h2 className="text-foreground text-2xl font-semibold">
-              Yuvraj Singh
+              Aryan Kumar
             </h2>
             <p className="text-muted-foreground text-sm">
-              Internship Application
+              Job Application
             </p>
           </div>
         </div>
@@ -57,7 +57,7 @@ const InternshipCard = () => {
           <div>
             <p className="text-foreground text-sm font-medium">Duration</p>
             <p className="text-muted-foreground text-sm">
-              currently open for contributions August (2025)
+              Immediately available for full-time roles.
             </p>
           </div>
         </div>
@@ -66,7 +66,7 @@ const InternshipCard = () => {
           <div>
             <p className="text-foreground text-sm font-medium">Location</p>
             <p className="text-muted-foreground text-sm">
-              Preferably Gurugram
+              Preferably Pune or Anywhere in India. Open to remote roles as well.
             </p>
           </div>
         </div>
@@ -109,8 +109,8 @@ const InternshipCard = () => {
         </p>
         <p className="text-foreground text-sm">
           Real-world AI dev experience. <br /> 
-          Blending AI passion with hands-on development to bring tech ideas to life. <br /> 
-          I ship fast, and love building useful things that actually work.
+          Blending AI passion with hands-on development to bring tech and data to life. <br /> 
+          I love building useful things that actually work and help businesses grow.
         </p>
       </div>
 
@@ -118,8 +118,8 @@ const InternshipCard = () => {
       <div className="mt-8">
         <p className="text-foreground mb-2 text-lg font-semibold">Goal</p>
         <p className="text-foreground text-sm">
-          Join a bold, innovative team building AI-powered tools that matter. I
-          want to improve fast, contribute hard, and leave a mark. I’m fast,
+          Join a bold, innovative team building Data and AI-powered tools that matter. I
+          want to brushen my skills, learn & contribute hard, and leave a mark. I’m fast,
           flexible, and HUNGRYYYYY 🔥
         </p>
       </div>

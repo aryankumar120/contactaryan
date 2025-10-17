@@ -2,52 +2,45 @@
 
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Mail, Phone, Linkedin, Github, Instagram, MapPin } from 'lucide-react';
+import { Mail, Phone, Linkedin, Github, MapPin } from 'lucide-react';
 
 export function Contact() {
   const contactInfo = [
     {
       icon: <Mail className="h-5 w-5" />,
       title: 'Email',
-      value: 'yuvraj0412s@gmail.com',
-      href: 'mailto:yuvraj0412s@gmail.com',
+      value: 'aryannkr120@gmail.com',
+      href: 'mailto:aryannkr120@gmail.com',
       color: 'text-blue-600'
     },
     {
       icon: <Phone className="h-5 w-5" />,
       title: 'Phone',
-      value: '+91 8930138841',
-      href: 'tel:+918930138841',
+      value: '+91 6204815914',
+      href: 'tel:+916204815914',
       color: 'text-green-600'
     },
     {
       icon: <MapPin className="h-5 w-5" />,
       title: 'Location',
-      value: 'Gurugram, India',
+      value: 'Andhra Pradesh, India (Currently)',
       href: '#',
       color: 'text-purple-600'
     },
     {
       icon: <Linkedin className="h-5 w-5" />,
       title: 'LinkedIn',
-      value: 'yuvraj-singh-77601827a',
-      href: 'https://linkedin.com/in/yuvraj-singh-77601827a',
+      value: 'aryan-kumar29',
+      href: 'https://linkedin.com/in/aryan-kumar29',
       color: 'text-blue-700'
     },
     {
       icon: <Github className="h-5 w-5" />,
       title: 'GitHub',
-      value: 'yuvraj0412s',
-      href: 'https://github.com/yuvraj0412s',
+      value: 'aryankumar120',
+      href: 'https://github.com/aryankumar120',
       color: 'text-gray-800'
     },
-    {
-      icon: <Instagram className="h-5 w-5" />,
-      title: 'Instagram',
-      value: 'uv.0402',
-      href: 'https://www.instagram.com/uv.0402/profilecard/?igsh=MTBucHR4N2c0djZndQ==',
-      color: 'text-pink-600'
-    }
   ];
 
   return (
@@ -91,14 +84,13 @@ export function Contact() {
         <div className="bg-accent rounded-lg p-6">
           <h3 className="font-semibold mb-2">What I'm Looking For</h3>
           <p className="text-sm text-muted-foreground">
-            • Data Science & AI opportunities • AI Automation projects • Full-stack development roles • 
-            Open source contributions • Tech community connections
+            • Data Science & Engineering, AI/ML opportunities • AI Automation projects • Tech community connections
           </p>
         </div>
         
         <p className="text-sm text-muted-foreground">
           Feel free to reach out for collaborations, job opportunities, or just to discuss the latest in tech! 
-          I'm particularly interested in projects that combine AI/ML with real-world impact.
+          I'm particularly interested in projects that combine Data Engineering & AI/ML with real-world impact.
         </p>
       </div>
     </div>

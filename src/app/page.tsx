@@ -2,7 +2,6 @@
 
 import FluidCursor from '@/components/FluidCursor';
 import { Button } from '@/components/ui/button';
-import { GithubButton } from '@/components/ui/github-button';
 import WelcomeModal from '@/components/welcome-modal';
 import { motion } from 'framer-motion';
 import {
@@ -69,15 +68,15 @@ export default function Home() {
 
     // Précharger les vidéos aussi
     const linkWebm = document.createElement('link');
-    linkWebm.rel = 'preload'; // Note: prefetch au lieu de preload
+    linkWebm.rel = 'preload'; 
     linkWebm.as = 'video';
-    linkWebm.href = '/final_memojis.webm';
+    linkWebm.href = '/profile.mp4';
     document.head.appendChild(linkWebm);
 
     const linkMp4 = document.createElement('link');
     linkMp4.rel = 'prefetch';
     linkMp4.as = 'video';
-    linkMp4.href = '/final_memojis_ios.mp4';
+    linkMp4.href = '/profile.mp4';
     document.head.appendChild(linkMp4);
   }, []);
 
@@ -96,13 +95,6 @@ export default function Home() {
       {/* GitHub button */}
       <div className="absolute top-6 right-8 z-20 flex items-center gap-2">
         <ThemeToggle />
-        <GithubButton
-          //targetStars={69}
-          animationDuration={1.5}
-          label="Star"
-          size={'sm'}
-          repoUrl="https://github.com/yuvraj0412s/ai-native_portfolio.git"
-        />
       </div>
 
       <div className="absolute top-6 left-6 z-20">
@@ -131,7 +123,7 @@ export default function Home() {
         </div>
 
         <h2 className="text-secondary-foreground mt-1 text-xl font-semibold md:text-2xl">
-          Hey, I'm Yuvraj Singh 👋
+          Hello! I'm Aryan Kumar 👋
         </h2>
         <h1 className="text-4xl font-bold sm:text-5xl md:text-6xl lg:text-7xl">
           AI Portfolio

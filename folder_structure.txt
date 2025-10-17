@@ -13,13 +13,13 @@
 ├── public
 │   ├── avatar-landing.png
 │   ├── favicon.svg
-│   ├── final_memojis_ios.mp4
-│   ├── final_memojis.webm
+│   ├── profile.mp4
+│   ├── profile.webm
 │   ├── landing-memojis.png
-│   ├── logo-yuvi.svg
+│   ├── logo-aryan.svg
 │   ├── Plant_disease_detectionwebsite.png
-│   ├── profile-yuvi-03.jpeg
-│   ├── profile-yuvi.jpg
+│   ├── profile-aryan-03.jpeg
+│   ├── profile-aryan.jpg
 │   ├── Resume_Yuvraj_Singh_AI.pdf
 │   └── Resume_Yuvraj_Singh_AI.png
 ├── README.md

@@ -9,209 +9,185 @@ import { Separator } from '@/components/ui/separator';
 const PROJECT_CONTENT = [
     {
     // --- NEW AI-NATIVE PORTFOLIO PROJECT ---
-    title: 'AI-Native Portfolio',
+    title: 'AI Resume and Cover Letter Generator',
     description:
-      'Static portfolios are boring. Mine talks back. The world’s first AI-native portfolio where an AI avatar answers your questions about me in real time.',
+    'This project leverages large language models (LLMs) to help job seekers and professionals craft personalized, ATS-friendly resumes and tailored cover letters with ease—all via a modern, interactive web app.',
     techStack: [
-      'Next.js',
-      'React',
-      'TypeScript',
-      'Tailwind CSS',
-      'Framer Motion',
-      'Mistral AI API',
-      'OpenAI API',
-      'Node.js',
-      'Vercel',
+      'Python',
+      'Streamlit',
+      'Groq - LLM',
+      'LangChain',
+      'FPDF',
+      'PyPDF2'
     ],
-    date: 'August 2025', // <-- TODO: Update with your project date
+    date: 'October 2025', // <-- TODO: Update with your project date
     links: [
       {
         name: 'Live Demo - You Are Here!',
-        url: 'https://www.yuvraj.bio',
+        url: 'https://github.com/aryankumar120/AI-Resume-and-Cover-Letter-Generator ', // deployed link
       },
       {
         name: 'GitHub Repository',
-        url: 'https://github.com/yuvraj0412s/ai-native-portfolio',
+        url: 'https://github.com/aryankumar120/AI-Resume-and-Cover-Letter-Generator', // <-- TODO: Update with your actual repo URL
       },
     ],
     images: [
-      { src: '/projects/ai-portfolio-chat.png', alt: 'The AI Native Portfolio chat interface in action' },
-      { src: '/projects/ai-portfolio-home.png', alt: 'Homepage of the AI Native Portfolio' },
+      { src: '/projects/resume.png', alt: 'Resume Generator Page' },
+      { src: '/projects/coverletter.png', alt: 'Cover Letter Generator Page' },
     ],
   },
   {
-    title: 'AgroAI',
+    title: 'AWS Pipeline for YouTube Trend Analysis',
     description:
-      'Snap a leaf, get a diagnosis! This AI-powered web app detects 38 plant diseases with 96% accuracy and gives instant tips on symptoms, causes, and treatment—making plant care smarter and easier for farmers and gardeners.',
+    'This project showcases a secure, scalable, and fully automated end-to-end data engineering pipeline built on AWS.',
     techStack: [
       'Python',
-      'Flask',
-      'TensorFlow',
-      'Keras',
-      'Deep Learning',
-      'Computer Vision',
-      'EfficientNetB4',
-      'HTML5',
-      'CSS3',
-      'JavaScript',
+      'Extract, Transform, Load (ETL)',
+      'AWS Lambda',
+      'AWS S3',
+      'AWS Glue',
+      'AWS Athena',
+      'AWS QuickSight',
+      'aws IAM',
+      'Data Visualization',
+      'Data Analysis',
+      'Dashboarding',
     ],
-    date: 'May 2024',
+    date: 'September 2025',
     links: [
       {
         name: 'Live Demo',
-        url: 'https://github.com/yuvraj0412s/AgroAI', // <-- TODO: Replace with your live deployment URL.... will do later
+        url: 'https://github.com/aryankumar120/AWS-Pipeline-for-YouTube-Trend-Analysis', // <-- TODO: Replace with your live deployment URL.... will do later
       },
       {
         name: 'GitHub Repository',
-        url: 'https://github.com/yuvraj0412s/AgroAI', // <-- TODO: Replace with your actual repo URL if different
+        url: 'https://github.com/aryankumar120/AWS-Pipeline-for-YouTube-Trend-Analysis', // <-- TODO: Replace with your actual repo URL if different
       },
     ],
     // All seven of screenshots are showcased here
     images: [
       {
-        src: '/projects/agroai-home.png',
-        alt: 'AgroAI Homepage - AI-Powered Plant Health Companion',
+        src: '/projects/youtube.png',
+        alt: 'Youtube Analysis Dashboard with Video Trends and Insights',
       },
       {
-        src: '/projects/agroai-result.png',
-        alt: 'AgroAI Analysis Result Page with Prediction and Confidence Score',
-      },
-      {
-        src: '/projects/agroai-guide.png',
-        alt: 'AgroAI Crop-wise Disease Guides Page',
-      },
-      {
-        src: '/projects/agroai-guide-detail.png',
-        alt: 'AgroAI Tomato Disease Guide Detail Page with Accordion',
-      },
-      {
-        src: '/projects/agroai-how-it-works.png',
-        alt: 'AgroAI How It Works Page with a 3-step flowchart',
-      },
-      {
-        src: '/projects/agroai-resources.png',
-        alt: 'AgroAI Farming & Plant Care Resources Page',
-      },
-      {
-        src: '/projects/agroai-about.png',
-        alt: 'AgroAI About and Contact Page',
-      },
+        src: '/projects/architecture.png',
+        alt: 'AWS Architecture Diagram showing the data pipeline components',
+      }
     ],
   },
   {
-    // --- NEW DJANGO E-COMMERCE PROJECT ---
-    title: 'Holohype',
+    title: 'Amazon Review Sentiment Analysis',
     description:
-      'HoloHype is a quirky full-stack e-commerce hub with a clever AI that knows what you want, a lightning-fast cart, secure logins, and a super-handy admin panel to keep all the goodies in check.',
+    'A Natural Language Processing (NLP) project comparing NLTK’s VADER and Hugging Face’s RoBERTa Transformer for sentiment classification on Amazon Fine Food Reviews.',
     techStack: [
-      'Django',
       'Python',
-      'Cython',
-      'Content-Based Filtering',
-      'NumPy',
+      'Hugging Face Transformers',
+      'NLTK',
       'Pandas',
-      'JavaScript',
-      'AJAX',
-      'HTML5',
-      'CSS3',
+      'Scikit-learn',
+      'Matplotlib',
+      'Seaborn',
+      'Jupyter Notebook',
+      'NLP',
+      'Sentiment Analysis',
     ],
-    date: 'June 2025', // <-- TODO: Update with your project date
+    date: 'July 2025', // <-- TODO: Update with your project date
     links: [
       {
         name: 'Live Demo',
-        url: 'https://github.com/yuvraj0412s/holohype', // <-- TODO: Replace with your live deployment URL
+        url: 'https://github.com/aryankumar120/Amazon-Fine-Food-Reviews', // <-- TODO: Replace with your live deployment URL
       },
       {
         name: 'GitHub Repository',
-        url: 'https://github.com/yuvraj0412s/holohype', // <-- TODO: Update with your actual repo URL
+        url: 'https://github.com/aryankumar120/Amazon-Fine-Food-Reviews', // <-- TODO: Update with your actual repo URL
       },
     ],
     images: [
-      { src: '/projects/holohype-home.png', alt: 'E-commerce platform homepage with product listings' },
-      { src: '/projects/holohype-login.png', alt: 'Modern user login and authentication page' },
-      { src: '/projects/holohype-product.png', alt: 'Product detail page with AI-powered recommendations' },
-      { src: '/projects/holohype-cart.png', alt: 'Dynamic shopping cart with real-time updates' },
+      { src: '/projects/model.png', alt: 'Model Performance Comparison' },
+      { src: '/projects/sentiment-score.png', alt: 'Sentiment Score Distribution' },
+      { src: '/projects/eda.png', alt: 'Exploratory Data Analysis' },
     ],
   },
   {
     // --- NEW REACT PORTFOLIO PROJECT ---
-    title: 'Old Portfolio',
+    title: 'Sales for Retail and Food Services in U.S.A.',
     description:
-      'A stellar dev portfolio with shooting stars on a dark space background! Built with React, Vite & Tailwind, it features sleek animations, dark/light mode, a filterable skills grid, dynamic project showcase, and a working contact form. A cosmic way to show off my frontend skills!',
+    'This project presents a detailed analysis and visualization of sales trends in the Retail and Food Services sectors across the United States.',    
     techStack: [
-      'React',
-      'Vite',
-      'Tailwind CSS',
-      'Radix UI',
-      'Lucide Icons',
-      'TypeScript',
-      'Responsive Design',
+      'Python',
+      'SQL',
+      'PostgreSQL',
     ],
-    date: '2024', // <-- TODO: Update with your project date
+    date: 'March 2025', // <-- TODO: Update with your project date
     links: [
       {
         name: 'Live Demo',
-        url: 'https://yuvraj-portfolio-phi.vercel.app', // <-- TODO: Update if this is the correct link
+        url: 'https://github.com/aryankumar120/Sales-for-Retail-and-Food-Services-in-USA', // <-- TODO: Update if this is the correct link
       },
       {
         name: 'GitHub Repository',
-        url: 'https://github.com/yuvraj0412s/react-tailwind-portfolio', // <-- TODO: Update with your actual repo URL
+        url: 'https://github.com/aryankumar120/Sales-for-Retail-and-Food-Services-in-USA', // <-- TODO: Update with your actual repo URL
       },
     ],
     images: [
-      { src: '/projects/old-portfolio-home.png', alt: 'Homepage of the React portfolio with hero section' },
-      { src: '/projects/old-portfolio-about.png', alt: 'About Me section with description' },
-      { src: '/projects/old-portfolio-skills.png', alt: 'Filterable skills grid with progress bars' },
-      { src: '/projects/old-portfolio-projects.png', alt: 'Project showcase section with cards' },
-      { src: '/projects/old-portfolio-contact.png', alt: 'Contact page with form to reach out directly' },
+      { src: '/projects/usa.png', alt: 'USA Sales Analysis' },
+      { src: '/projects/usa2.png', alt: 'USA Analysis' },
     ],
   },
   {
     // --- YOUTUBE CLONE PROJECT (FROM YOUR README) ---
-    title: 'YouTube Clone',
+    title: 'Cold Email Genertor',
     description:
-      'A pixel-perfect, responsive clone of the YouTube user interface, built from scratch using modern HTML5 and CSS3. The project showcases a deep understanding of frontend fundamentals, featuring a dynamic video grid built with CSS Grid, a fully responsive sidebar and header created with Flexbox, and a mobile-first design approach that ensures a seamless experience on any device.',
+    'Generative AI project designed to help Software and AI services companies send highly personalized cold emails to their potential clients.',
     techStack: [
-      'HTML5',
-      'CSS3',
-      'Flexbox',
-      'CSS Grid',
-      'Responsive Design',
-      'Mobile-First',
+      'Python',
+      'Streamlit',
+      'OpenAI GPT-4',
+      'LangChain',
+      'Generative AI',
+      'Chromadb',
     ],
-    date: '2023', // <-- TODO: Update with your project date
+    date: 'December 2024', // <-- TODO: Update with your project date
     links: [
       {
         name: 'Live Demo',
-        url: 'https://github.com/yuvraj0412s/YouTube_clone', // <-- TODO: Replace with your live deployment URL
+        url: 'https://github.com/aryankumar120/Cold-Email-Generator', // <-- TODO: Replace with your live deployment URL
       },
       {
         name: 'GitHub Repository',
-        url: 'https://github.com/yuvraj0412s/YouTube_clone', // <-- TODO: Update if your repo name is different
+        url: 'https://github.com/aryankumar120/Cold-Email-Generator', // <-- TODO: Update if your repo name is different
       },
     ],
     images: [
-      { src: '/projects/yt-clone-home.png', alt: 'Screenshot of the YouTube Clone project homepage' },
+      { src: '/projects/cold-email.png', alt: 'Cold Email Generator Page' },
       // Add more screenshots here if you have them!
     ],
   },
   {
-    title: 'Latency-Aware Task Partitioning',
+    title: 'Hospital Emergency Room Dashboard',
     description:
-      'Proposed a framework for optimal task partitioning and user association across edge–fog–cloud layers, implementing metaheuristic algorithms (ACO, GA, PSO) to solve MILP-based formulations for both dependent and independent subtasks.',
+    'This interactive ER dashboard dives deep into patient admissions, wait times, peak hours, referrals, and satisfaction scores to uncover critical insights that can help hospitals optimize efficiency and improve patient outcomes.',
     techStack: [
       'Python',
-      'Metaheuristic Algorithms (ACO, GA, PSO)',
-      'MILP',
-      'Edge Computing',
+      'POWERBI',
     ],
-    date: 'Ongoing',
-    links: [],
-    images: [
+    date: 'November 2024', // <-- TODO: Update with your project date
+    links: [
       {
-        src: '/projects/RP_preview.png', // Placeholder image
-        alt: 'Latency-Aware Task Partitioning project image 1',
+        name: 'Live Demo',
+        url: 'https://github.com/aryankumar120/Hospital-ER-Dashboard', // <-- TODO: Replace with your live deployment URL
       },
+      {
+        name: 'GitHub Repository',
+        url: 'https://github.com/aryankumar120/Hospital-ER-Dashboard', // <-- TODO: Update with your actual repo URL
+      },
+      ],
+    images: [
+      { src: '/projects/er1.png',alt: 'Dashboard 1 - Overview of ER Metrics'},
+      { src: '/projects/er2.png',alt: 'Dashboard 2 - Patient Wait Times and Satisfaction'},
+      { src: '/projects/er3.png',alt: 'Dashboard 3 - Patient Admissions and Referrals'},
+      { src: '/projects/er4.png',alt: 'Dashboard 4 - Peak Hours and Resource Utilization'},
     ],
   },
 ];
@@ -318,52 +294,52 @@ const ProjectContent = ({ project }: { project: ProjectProps }) => {
 // This is the data used by your main portfolio page.
 export const data = [
    {
-    category: 'AI & Next.js',
-    title: 'AI-Native Portfolio',
-    src: '/projects/ai-portfolio-preview.png', // <-- TODO: Make sure you have a preview image at this path
+    category: 'AI & ML',
+    title: 'AI Resume and Cover Letter Generator',
+    src: '/projects/coverletter.png', // <-- TODO: Make sure you have a preview image at this path
     content: (
       // The `title` here MUST match the full title in PROJECT_CONTENT
-      <ProjectContent project={{ title: 'AI-Native Portfolio' }} />
+      <ProjectContent project={{ title: 'AI Resume and Cover Letter Generator' }} />
     ),
   },
   {
-    category: 'Full-Stack AI',
-    title: 'AgroAI',
-    src: '/projects/agroai-preview.png', // Use the main homepage screenshot for the preview
+    category: 'AWS & Data Engineering',
+    title: 'AWS Pipeline for YouTube Trend Analysis',
+    src: '/projects/youtube.png', // Use the main homepage screenshot for the preview
     content: (
-      <ProjectContent project={{ title: 'AgroAI' }} />
+      <ProjectContent project={{ title: 'AWS Pipeline for YouTube Trend Analysis' }} />
     ),
   },
   {
-    category: 'Full-Stack & AI',
-    title: 'Holohype',
-    src: '/projects/holohype-preview.png', // <-- TODO: Make sure you have a preview image at this path
+    category: 'GenAI & NLP',
+    title: 'Amazon Review Sentiment Analysis',
+    src: '/projects/model.png', // <-- TODO: Make sure you have a preview image at this path
     content: (
-      <ProjectContent project={{ title: 'Holohype' }} />
+      <ProjectContent project={{ title: 'Amazon Review Sentiment Analysis' }} />
     ),
   },
   {
-    category: 'Frontend Development',
-    title: 'Old Portfolio',
-    src: '/projects/old-portfolio-preview.png', // <-- TODO: Make sure you have a preview image at this path
+    category: 'Data Analysis & Visualization',
+    title: 'Sales for Retail and Food Services in U.S.A.',
+    src: '/projects/usa.png', // <-- TODO: Make sure you have a preview image at this path
     content: (
-      <ProjectContent project={{ title: 'Old Portfolio' }} />
+      <ProjectContent project={{ title: 'Sales for Retail and Food Services in U.S.A.' }} />
     ),
   },
   {
-    category: 'Frontend Development',
-    title: 'YouTube Clone',
-    src: '/projects/yt-clone-preview.png', // <-- TODO: Make sure you have a preview image at this path
+    category: 'GenAI & NLP',
+    title: 'Cold Email Genertor',
+    src: '/projects/cold-email.png', // <-- TODO: Make sure you have a preview image at this path
     content: (
-      <ProjectContent project={{ title: 'YouTube Clone' }} />
+      <ProjectContent project={{ title: 'Cold Email Genertor' }} />
     ),
   },
   {
-    category: 'Edge Computing',
-    title: 'Latency-Aware Task Partitioning',
-    src: '/projects/RP_preview.png', // Placeholder image
+    category: 'Data Visualization',
+    title: 'Hospital Emergency Room Dashboard',
+    src: '/projects/er1.png', // Placeholder image
     content: (
-      <ProjectContent project={{ title: 'Latency-Aware Task Partitioning' }} />
+      <ProjectContent project={{ title: 'Hospital Emergency Room Dashboard' }} />
     ),
   },
 ];

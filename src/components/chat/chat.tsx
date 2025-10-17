@@ -17,7 +17,6 @@ import {
 } from '@/components/ui/chat/chat-bubble';
 import WelcomeModal from '@/components/welcome-modal';
 import { Info } from 'lucide-react';
-import { GithubButton } from '../ui/github-button';
 import HelperBoost from './HelperBoost';
 
 // ClientOnly component for client-side rendering
@@ -76,7 +75,7 @@ const Avatar = dynamic<AvatarProps>(
       // Conditional rendering based on detection
       return (
         <div
-          className={`flex items-center justify-center rounded-full transition-all duration-300 ${hasActiveTool ? 'h-20 w-20' : 'h-28 w-28'}`}
+          className={`flex items-center justify-center rounded-full transition-all duration-300 ${hasActiveTool ? 'h-16 w-16' : 'h-24 w-24'}`}
         >
           <div
             className="relative cursor-pointer"
@@ -86,18 +85,18 @@ const Avatar = dynamic<AvatarProps>(
               <img
                 src="/landing-memojis.png"
                 alt="iOS avatar"
-                className="h-full w-full scale-[1.8] object-contain"
+                className="h-full w-full scale-[1.5] object-contain"
               />
             ) : (
               <video
                 ref={videoRef}
-                className="h-full w-full scale-[1.8] object-contain"
+                className="h-full w-full scale-[1.5] object-contain"
                 muted
                 playsInline
                 loop
               >
-                <source src="/final_memojis.webm" type="video/webm" />
-                <source src="/final_memojis_ios.mp4" type="video/mp4" />
+                <source src="/profile.webm" type="video/webm" />
+                <source src="/profile.mp4" type="video/mp4" />
               </video>
             )}
           </div>
@@ -285,12 +284,6 @@ const Chat = () => {
           }
         />
         <div className="">
-          <GithubButton
-            animationDuration={1.5}
-            label="Star"
-            size={'sm'}
-            repoUrl="https://github.com/yuvraj0412s"
-          />
         </div>
       </div>
 
@@ -392,12 +385,12 @@ const Chat = () => {
 </div>
 
         <a
-          href="https://linkedin.com/in/yuvraj-singh-77601827a"
+          href="https://linkedin.com/in/aryan-kumar29"
           target="_blank"
           rel="noopener noreferrer"
           className="fixed right-3 bottom-0 z-10 mb-4 hidden cursor-pointer items-center gap-2 rounded-xl px-4 py-2 text-sm hover:underline md:block"
         >
-          @yuvraj-singh
+          @aryan-kumar
         </a>
       </div>
     </div>

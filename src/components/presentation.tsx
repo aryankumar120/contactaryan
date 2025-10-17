@@ -7,13 +7,13 @@ import React from 'react';
 export function Presentation() {
   // Personal information
   const profile = {
-    name: 'Yuvraj Singh',
+    name: 'Aryan Kumar',
     age: '22 years old',
-    location: 'Gurugram, India',
+    location: 'Andhra Pradesh, India',
     // Add a newline character after the emoji
     description:
-      "Hey 👋\nI'm Yuvraj also known as Yuvi, building AI-powered experiences that talk back, think with you, and make static tech feel alive.",
-    src: '/profile-yuvi-03.jpeg',
+      "Hey 👋\nI'm Aryan Kumar — a Computer Science student passionate about leveraging data, Python, and SQL to power smart, sustainable innovations.",
+    src: '/profile-aryan-03.jpeg',
     fallbackSrc:
       'https://images.unsplash.com/photo-1610216705422-caa3fcb6d158?q=80&w=3560&auto=format&fit=crop&ixlib=rb-4.0.3',
   };

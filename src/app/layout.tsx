@@ -14,49 +14,48 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Yuvraj Singh Portfolio",
-  description: "Interactive portfolio with an AI-powered Memoji that answers questions about me, my skills, and my experience",
+  title: "Aryan Kumar Portfolio",
+  description: "Interactive portfolio with an AI-powered Memoji that answers questions about me, my skills, and my experiences",
   keywords: [
-    "Yuvraj Singh", 
+    "Aryan Kumar", 
     "Portfolio", 
     "Developer", 
     "AI", 
     "Interactive", 
-    "Memoji", 
-    "Web Development",
-    "Full Stack",
+    "Memoji",
+    "Data Engineer",
     "Next.js",
     "React"
   ],
   authors: [
     {
-      name: "Yuvraj Singh",
-      url: "https://yuvraj.bio",
+      name: "Aryan Kumar",
+      url: " ",
     },
   ],
-  creator: "Yuvraj Singh",
+  creator: "Aryan Kumar",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://yuvraj.bio",
-    title: "Yuvraj Singh Portfolio",
+    url: "",
+    title: "Aryan Kumar Portfolio",
     description: "Interactive portfolio with an AI-powered Memoji that answers questions about me",
-    siteName: "Yuvraj Singh Portfolio",
+    siteName: "Aryan Kumar Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Yuvraj Singh Portfolio",
+    title: "Aryan Kumar Portfolio",
     description: "Interactive portfolio with an AI-powered Memoji that answers questions about me",
-    creator: "@yuvrajsingh",
+    creator: "@aryankumar",
   },
   icons: {
     icon: [
       {
-        url: "/logo-yuvi.svg",
+        url: "/letter-a.png",
         sizes: "any",
       }
     ],
-    shortcut: "/logo-yuvi.svg?v=2",
+    shortcut: "/letter-a.png?v=2",
     apple: "/apple-touch-icon.svg?v=2",
   },
 };
@@ -70,7 +69,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-        <link rel="icon" href="/logo-yuvi.svg" sizes="any" />
+        <link rel="icon" href="/logo-aryan.svg" sizes="any" />
         {/* Google Analytics */}
         <Script
           async
