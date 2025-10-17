@@ -1,9 +1,7 @@
 <div align="center">
 
   <br />
-  <p>
-    <a href="https://www.yuvraj.bio"><img src="assets/readme-photo.png" alt="AI Portfolio Banner" width="100%"/></a>
-  </p>
+  
   <br />
 
   <h1>🌐 World's First AI-Native Portfolio 🤖✨</h1>
@@ -28,8 +26,7 @@
 
 ### **About The Project** 💡
 
-Static portfolios are a thing of the past. They present a one-sided, lifeless view of a developer's journey. I decided to build **[yuvraj.bio](https://www.yuvraj.bio)** to break that mold.
-
+Static portfolios are a thing of the past. They present a one-sided, lifeless view of a developer's journey. 
 This project is an **AI-powered, interactive portfolio** that transforms the "About Me" page into a dynamic, engaging conversation. Instead of forcing recruiters, developers, and friends to scroll endlessly through information, it invites them to ask questions and receive answers tailored specifically to them.  
 
 It’s a portfolio that doesn't just show—it communicates.
@@ -55,47 +52,6 @@ It’s a portfolio that doesn't just show—it communicates.
 | **AI & APIs**     | [OpenAI API](https://openai.com/), [Mistral API](https://mistral.ai/), [GitHub API](https://docs.github.com/en/rest)      |
 | **Deployment**    | [Vercel](https://vercel.com/)                                                                                         |
 | **Package Manager**| [pnpm](https://pnpm.io/)                                                                                              |
-
----
-
-### **Installation & Usage** 🚀
-
-Want to get this project running on your local machine? Follow these simple steps.
-
-#### **Prerequisites**
--   Node.js (v18 or higher)
--   pnpm package manager
--   Mistral API Token
--   GitHub API Token
-
-#### **Local Setup**
-
-1.  **Clone the repository:**
-    ```sh
-    git clone https://github.com/yuvraj0412s/aryan_portfolio.git
-    cd aryan_portfolio
-    ```
-
-2.  **Install dependencies:**
-    ```sh
-    pnpm install
-    ```
-
-3.  **Set up your environment variables:**
-    Create a `.env.local` file in the root of your project and add the following keys:
-    ```env
-    MISTRAL_API_KEY="your_mistral_api_key_here"
-    GITHUB_TOKEN="your_github_token_here"
-    ```
-    *   Get your Mistral API Key from [admin.mistral.ai](https://admin.mistral.ai/organization/api-keys).
-    *   Generate your GitHub Token at [github.com/settings/tokens](https://github.com/settings/personal-access-tokens).
-
-4.  **Run the development server:**
-    ```sh
-    pnpm dev
-    ```
-
-5.  **Open your browser** and navigate to `http://localhost:3000`.
 
 ---
 
@@ -129,17 +85,6 @@ This project is open-sourced under the **MIT License**. See the [LICENSE](LICENS
 
 ---
 
-### **Contact & Links** 🔗
-
-**Aryan Kumar** - Let's connect!
-
-<div align="center">
-
-[![Portfolio](https://img.shields.io/badge/Live_Demo-yuvraj.bio-2ea44f?style=for-the-badge&logo=vercel)](https://www.yuvraj.bio)
-&nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yuvraj-singh-77601827a/)
-
-</div>
 
 ---
 
